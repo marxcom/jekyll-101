@@ -8,32 +8,11 @@
     <title>Jekyll Practice Ground</title>
 </head>
 <body>
-   <div id="banner" class="navbar navbar-inverse navbar-fixed-top">
-        <div class="logo">
-            <a href="#">
-                <span>Marxcom</span>
-            </a>
-        </div>
-        <ul class="list-inline" id="nav">
-            <a id="aboutMe" href="{{site.baseurl}}/index.html">
-                <li>
-                    About Me
-                </li>
-            </a>
-            <a id="portfolio" href="{{site.baseurl}}/portfolio.html">
-                <li>
-                    Portfolio
-                </li>
-            </a>
-            <a id="contactMe" href="{{site.baseurl}}/contact.html">
-                <li>
-                    Contact Me
-                </li>
-            </a>
-        </ul>
-    </div>
+    {% include nav.html %}
 
     {{content}}
+
+    {%include footer.html%}
 </body>
 
 </html>
