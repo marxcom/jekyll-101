@@ -1,3 +1,6 @@
 markdown: redcarpet
 baseurl: /jekyll-101
 exclude: ['README.md']
+sass:
+    sass_dir: _sass
+    style: :compressed

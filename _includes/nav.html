@@ -5,17 +5,17 @@
             </a>
         </div>
         <ul class="list-inline" id="nav">
-            <a id="aboutMe" href="{{site.baseurl}}/index.html">
+            <a class="{% if page.url == '/'%}current{% endif %}" id="aboutMe" href="{{site.baseurl}}/index.html">
                 <li>
                     About Me
                 </li>
             </a>
-            <a id="portfolio" href="{{site.baseurl}}/portfolio.html">
+            <a class="{% if page.url == '/portfolio.html'%}current{% endif %}" id="portfolio" href="{{site.baseurl}}/portfolio.html">
                 <li>
                     Portfolio
                 </li>
             </a>
-            <a id="contactMe" href="{{site.baseurl}}/contact.html">
+            <a class="{% if page.url == '/contact.html'%}current{% endif %}" id="contactMe" href="{{site.baseurl}}/contact.html">
                 <li>
                     Contact Me
                 </li>
