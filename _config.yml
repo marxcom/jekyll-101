@@ -1,4 +1,4 @@
-markdown: redcarpet
+markdown: kramdown
 baseurl: /jekyll-101
 exclude: ['README.md']
 sass:
