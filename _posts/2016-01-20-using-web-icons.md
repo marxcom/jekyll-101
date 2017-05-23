@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Using the Web Icons
 category: Design
 

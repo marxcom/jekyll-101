@@ -20,5 +20,11 @@
                     Contact Me
                 </li>
             </a>
+            <a class="{% if page.url == '/blog.html' %}current{% endif %}" id="blog" href="{{site.baseurl}}/blog.html">
+                <li>
+                    Blog
+                </li>
+            </a>
+
         </ul>
     </div>

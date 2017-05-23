@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Guest Posts
 category: Meta
 author: John Smith

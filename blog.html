@@ -4,6 +4,10 @@ layout: default
 <h1>WELCOME TO MY BLOG</h1>
 
 <ul>
-    <li><a href=""><h3></h3></a></li>
-    <h4></h4>
+    {% for post in site.posts %}
+    <li><a href=""><h3>{{post.title}}</h3></a></li>
+    <h4>{{post.category}}</h4>
+    <h6>{{post.author}}</h6>
+    <p>{{post.excerpt}}</p>
+    {% endfor %}
 </ul>
