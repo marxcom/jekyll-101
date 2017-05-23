@@ -1,10 +1,10 @@
- <div id="banner" class="navbar navbar-inverse navbar-fixed-top">
+ <div id="banner" class="container navbar navbar-inverse navbar-fixed-top">
         <div class="logo">
             <a href="#">
                 <span>Marxcom</span>
             </a>
         </div>
-        <ul class="list-inline" id="nav">
+        <ul class="menu list-inline" id="nav">
             <a class="{% if page.url == '/'%}current{% endif %}" id="aboutMe" href="{{site.baseurl}}/index.html">
                 <li>
                     About Me
@@ -17,7 +17,7 @@
             </a>
             <a class="{% if page.url == '/contact.html'%}current{% endif %}" id="contactMe" href="{{site.baseurl}}/contact.html">
                 <li>
-                    Contact Me
+                    Contact
                 </li>
             </a>
             <a class="{% if page.url == '/blog.html' %}current{% endif %}" id="blog" href="{{site.baseurl}}/blog.html">

@@ -6,11 +6,45 @@
 
 
 
-body{
+.main{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    margin: 0;
+    padding: 0;
+
 .current{
     background-color: black;
     color: red;
 }
+.navbar{
+    height: 70px;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 1;
+    border-radius: 0;
+
+.menu{
+    display: flex;
+    list-style: none;
+    height: 70px;
+    text-align: center;
+    li {
+        margin: 0 5px;
+        padding-top: 30px;
+        width: 100px;
+        height: 70px;
+        color: #fff;
+        font-size: 1em;
+        text-transform: uppercase;
+            &:hover {
+                   cursor: pointer;
+                   background: #fff;
+                   color: #000;
+                    }
+                }
+}
+
+}
+
 }
